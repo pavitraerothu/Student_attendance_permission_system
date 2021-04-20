@@ -1,0 +1,36 @@
+.leave{
+	height: auto;
+	width: 100%;
+	float: left;
+}
+.leave .health{
+	height: auto;
+	width: 18%;
+	float: left;
+	margin: 0% 1%;
+}
+.health img{
+	border-radius: 10px;
+	border-style: groove;
+}
+.health img:hover{
+	box-shadow: 2px 10px 8px 0 rgb(105, 255, 137), 2px 6px 20px 0 rgb(105, 255, 137, 0.9);
+	opacity: 0.9;
+}
+.leave h2{
+	text-align: center;
+	text-shadow: 2px 2px blue;
+	font-size: 27px;
+	background: rgb(105, 255, 137, 0.3);
+	width: 332px;
+	border-radius: 20px;
+	margin: 2%;
+	padding: 10px;
+	margin-left: 38%;
+}
+.health p{
+	color: #69ff89;
+	text-align: center;
+	font-size: 18px;
+	font-family: verdana;
+}

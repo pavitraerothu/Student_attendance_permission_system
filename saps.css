@@ -1,0 +1,213 @@
+body{
+	background: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	background-size: cover;
+	margin:0px 10px;
+	padding: 0;
+	color: white;
+}
+/*----Header Design------*/
+.header{
+	height: 82px;
+	width: 100%;
+	background:rgb(0, 0, 0, 0.6);
+}
+.logo{
+	height: 82px;
+	width: 7%;
+	float: left;
+}
+.line1, .line2{
+	width: 1%;
+	float: left;
+}
+.sapslogo{
+	width: 8%;
+	float: left;
+	margin:0% 1%;
+}
+.sapslogo img{
+	border-radius: 80%;
+	box-shadow: 2px 2px 2px 0 white, 2px 3px 2px 0 white;
+}
+.clgname{
+	width:20%;
+	height:auto;
+	padding: 0;
+	float: left;
+	margin-top: 12px;
+	font-size: 18px;
+}
+.projectname{
+	height: auto;
+	opacity: 0.9;
+	width: 61%;
+	font-size: 45px;
+	float: left;
+	text-align: center;
+	padding-top: 8px;
+	text-shadow: 2px 2px yellow;
+}
+/*-----Navigation bar design ----*/
+.nav {
+	background: rgb(0, 0, 0, 0.4);
+	text-align: center;
+	margin: 0;
+	box-sizing: border-box;
+}
+.nav ul{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+.nav ul li {
+	width: 120px;
+	padding:10px 15px;
+}
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+.nav ul li a:hover{
+	color: yellow;
+	font-size: 15px;
+}
+.nav ul li:hover{
+	background:rgb(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+.nav .fa{
+	margin-right: 7px;
+}
+.sub-nav1 {
+	display: none;
+}
+.nav ul li:hover .sub-nav1 {
+	display: block;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: -15px;
+	background: rgb(0, 0, 0, 0.6);
+}
+.nav ul li:hover .sub-nav1 ul {
+	display: block;
+	margin:10px;
+}
+.nav ul li:hover .sub-nav1 ul li {
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted white;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.nav ul li:hover .sub-nav1 ul li:last-child {
+	border-bottom: none;
+}
+.nav ul li:hover .sub-nav1 ul li a:hover{
+	color: yellow;
+}
+.fa-angle-right {
+	float: right;
+}
+
+/*-----Banner Design ---------*/
+.homebanner {
+	height:650px;
+	width:100%;
+	float:center;
+	margin-top:1px;
+	margin-bottom: 0.3%;
+}
+.homebanner img {
+
+	border-radius: 12px;
+	box-shadow: 2px 10px 8px 0 rgba(0, 0, 0, 0.5), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.homebanner .content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 98.8%;
+}
+.content p {
+	font-size:20px;
+	float:center;
+}
+/*-----Footer of home page----*/
+
+.footer{
+	height:60px;
+	width:100%;
+	background:transparent;
+	color:white;
+	font-size:20px;
+	margin-top:2px;
+	margin-bottom: .3%;
+}
+.fb {
+	width:3.2%;
+	float:left;
+	margin-top:12px;
+	margin-right:40px;
+	margin-left:40px;
+}
+
+.insta {
+	width:3.2%;
+	float:left;
+	margin-top:12px;
+	margin-right:40px;
+}
+.svecwlogo {
+	width:3.2%;
+	float:left;
+	margin-top:12px;
+	margin-right:40px;
+}
+.youtube {
+	width:3.2%;
+	float:left;
+	margin-top:12px;
+	margin-right:40px;
+}
+.linkedln {
+	width:3.2%;
+	float:left;
+	margin-top:12px;
+	margin-right:40px;
+}
+.svecwmail{
+	height:50px;
+	width:79%;
+	text-align:center;
+	font-size:20px;
+	color:white;
+}
+
+.footer img:hover {
+	opacity:0.7;
+}
+
+/*--------- About us page design --------*/
+.aboutimg{
+	margin-top: 0.2%;
+}
+.aboutimg img{
+	border-radius: 20px;
+	box-shadow: 2px;
+	box-shadow: 2px 10px 8px 0 rgba(0, 0, 0, 0.5), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.aboutus{
+	height: auto;
+	background:rgb(4, 48, 48, 0.4);
+	border-radius: 15px 50px 30px;
+	padding:10px 30px;
+	font-size: 18px;
+	font-family: verdana;
+	color:pink;
+	margin-bottom:0.1%;
+	text-shadow: 2px 2px black;
+	box-shadow: 5px 5px 5px black;
+}

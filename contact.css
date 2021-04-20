@@ -1,0 +1,36 @@
+.contact_image{
+	float: center;
+}
+.contact_image img{
+	opacity: 0.5;
+}
+.contact_image .content{
+	position: absolute;
+	top: 35%;
+	text-align: center;
+	left: 33%;
+}
+.contact_us{
+	width: 48%;
+	height: 340px;
+	margin: 2% 26%;
+	box-shadow: 2px 10px 8px 0 rgba(0, 0, 0, 0.5), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact_us .map{
+	float: left;
+	height: 340px;
+	width: 50%;
+}
+.contact_us .mails{
+	float: left;
+	width: 50%;
+	background: rgb(20, 20, 20, 0.3);
+	height: 340px;
+}
+.mails img{
+	margin-left:34%;
+	margin-top: 2%;
+}
+.mails p{
+	font-size: 19.5px;
+}

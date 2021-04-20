@@ -1,0 +1,49 @@
+.applyleaves{
+	margin-left: 38%;
+	width: 420px;
+	height: auto;
+	font-size: 18px;
+	padding-top: 10px;
+	margin-top: 1%;
+	background-color: gray;
+	margin-bottom: 3%;
+	background: rgb(128, 128, 128, 0.3);
+	border-radius: 15px;
+	box-shadow: 2px 10px 8px 0 rgb(105, 255, 137), 2px 6px 20px 0 rgb(105, 255, 137, 0.9);
+}
+input{
+	margin: 2%;
+	margin-left: 12%;
+	width: 74%;
+	height: 32px;
+	border-radius: 10px;
+}
+label{
+	margin: 2%;
+	margin-left: 12%;
+}
+.applyleaves select{
+	margin-left: 12%;
+	width: 75%;
+	height: 32px;
+	margin-bottom: 2%;
+	border-radius: 10px;
+}
+.applyleaves textarea{
+	margin: 2%;
+	margin-left: 12%;
+	width: 73.5%;
+	height: 50px;
+	border-radius: 10px;
+}
+.applyleaves button{
+	margin: 2%;
+	margin-left: 12%;
+	width: 75%;
+	height: 35px;
+	background-color: gray;
+	font-size: 19px;
+	color: white;
+	margin-bottom: 5%;
+	border-radius: 10px;
+}

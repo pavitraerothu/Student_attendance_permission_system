@@ -1,0 +1,14 @@
+.wrapper{
+	width: 500px;
+	height: 400px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+#count{
+border-radius: 50%;
+background-color: red;
+position: relative;
+top: -7px;
+left: -16px;
+}

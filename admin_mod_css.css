@@ -1,0 +1,25 @@
+.admin_profile{
+	background: #0c4518;
+	margin-top: 3%;
+	height: auto;
+	width: 300px;
+	margin-left: 39%;
+	padding-bottom: 2.3%;
+}
+.profile_img img{
+	padding-top: 4%;
+	border-radius: 50%;
+}
+table,th,td{
+	border:2px solid white;
+	width: 1100px;
+	background-color: lightgreen;
+	color: black;
+	line-height: 30px;
+}
+.btn{
+	width: 10%;
+	height: 5%;
+	font-size: 15px;
+	padding: 0px;
+}
